@@ -4,7 +4,7 @@ function AirlineTable() {
     console.log(airlineList);
 
 	return (
-		<table>
+		<table className="airlineTable">
 			<thead>
 				<tr>
 					<th>Airlines</th>

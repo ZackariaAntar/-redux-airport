@@ -17,8 +17,8 @@ function AirlineForm() {
 	};
 
 	return (
-		<>
-			<form onSubmit={submitAction}>
+
+			<form onSubmit={submitAction} className="airlineForm">
 				<label>Airline Name: </label>
 				<input
 					value={airlineName}
@@ -35,7 +35,7 @@ function AirlineForm() {
 				/>
 				<button type="submit">Add Airline</button>
 			</form>
-		</>
+
 	);
 }
 

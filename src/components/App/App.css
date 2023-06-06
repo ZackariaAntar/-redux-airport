@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(45, 32, 59);
+}
+.header{
+    color: azure;
+}
+.airlineForm{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: ;
+}
+
+.airlineForm > label{
+    color: azure;
+}
+
+.airlineForm > input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.airlineForm > button{
+    width: 100px;
+    border-style: hidden;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: azure;
+}
+
+.airlineTable{
+    margin-top: 25px;
+    color: azure;
+    
+
+}
