@@ -11,12 +11,12 @@ function AirlineTable() {
 				</tr>
 			</thead>
 			<tbody>
-
-					{airlineList.map((item, i) => (
-                        <tr>
-						    <td key = {i}>{item}</td>
-				        </tr>
-					))}
+				{airlineList.map((item, i) => (
+					<tr key={i}>
+						<td>{item[0]}</td>
+                        <td>{item[1]}</td>
+					</tr>
+				))}
 			</tbody>
 		</table>
 	);
